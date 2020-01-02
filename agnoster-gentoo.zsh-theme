@@ -82,10 +82,7 @@ prompt_end() {
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
   local user=`whoami`
-
-  if [[ -n "$SSH_CONNECTION" ]]; then
-    prompt_segment $PRIMARY_FG 10 " %(!.%{%F{red}%}.)%B%m%b "
-  fi
+  prompt_segment $PRIMARY_FG 10 " %(!.%{%F{red}%}.)%B%m%b "
 }
 
 # Git: branch/detached head, dirty status
