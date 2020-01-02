@@ -94,10 +94,10 @@ prompt_git() {
   ref="$vcs_info_msg_0_"
   if [[ -n "$ref" ]]; then
     if is_dirty; then
-      color=yellow
+      color=11
       ref="${ref} $PLUSMINUS"
     else
-      color=green
+      color=10
       ref="${ref} "
     fi
     if [[ "${ref/.../}" == "$ref" ]]; then
@@ -112,7 +112,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment 240 white ' %~ '
+  prompt_segment 240 15 ' %B%~%b '
 }
 
 # Display current virtual environment
