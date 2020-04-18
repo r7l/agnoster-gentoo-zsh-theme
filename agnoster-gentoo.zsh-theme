@@ -37,7 +37,7 @@ typeset -aHg AGNOSTER_PROMPT_SEGMENTS=(
 
 CURRENT_BG='NONE'
 if [[ -z "$PRIMARY_FG" ]]; then
-	PRIMARY_FG=234
+	PRIMARY_FG=232
 fi
 
 # Characters
@@ -112,7 +112,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment 238 15 ' %B%~%b '
+  prompt_segment 236 15 ' %B%~%b '
 }
 
 # Display current virtual environment
