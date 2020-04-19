@@ -112,7 +112,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment 236 15 ' %B%~%b '
+  prompt_segment 238 15 ' %B%~%b '
 }
 
 # Display current virtual environment
