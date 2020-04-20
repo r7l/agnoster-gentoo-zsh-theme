@@ -1,6 +1,6 @@
 # Agnoster Gentoo
 
-A Gentoo flavored version of the [Agnoster ZSH Theme](https://github.com/agnoster/agnoster-zsh-theme)Agnoster ZSH Theme.
+A Gentoo flavored version of the [Agnoster ZSH Theme](https://github.com/agnoster/agnoster-zsh-theme).
 
 Optimized for people who use:
 
