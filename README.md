@@ -1,6 +1,6 @@
 # Agnoster Gentoo
 
-A Gentoo flavored version of the Agnoster ZSH Theme.
+A Gentoo flavored version of the [Agnoster ZSH Theme](https://github.com/agnoster/agnoster-zsh-theme)Agnoster ZSH Theme.
 
 Optimized for people who use:
 
@@ -17,6 +17,4 @@ Optimized for people who use:
   - Current branch / SHA1 in detached head state
   - Dirty working directory (±, color change)
 
-![Screenshot](https://gist.githubusercontent.com/agnoster/3712874/raw/screenshot.png)
-
-Inspired from [this link](https://github.com/agnoster/agnoster-zsh-theme).
+![Screenshot](https://raw.githubusercontent.com/r7l/agnoster-gentoo-zsh-theme/master/screenshot.png)
